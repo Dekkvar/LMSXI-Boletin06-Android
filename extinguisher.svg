@@ -1,4 +1,26 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
+
+<!DOCTYPE svg [
+	<!ELEMENT svg (g, path)>
+	<!ELEMENT g (path+, g*, polygon*)>
+	<!ELEMENT polygon EMPTY>
+	<!ELEMENT path EMPTY>
+	<!ATTLIST svg version CDATA #REQUIRED>
+	<!ATTLIST svg id ID #REQUIRED>
+	<!ATTLIST svg xmlns CDATA #REQUIRED>
+	<!ATTLIST svg xmlns:xlink CDATA #REQUIRED>
+	<!ATTLIST svg x CDATA #REQUIRED>
+	<!ATTLIST svg y CDATA #REQUIRED>
+	<!ATTLIST svg viewBox CDATA #REQUIRED>
+	<!ATTLIST svg style CDATA #REQUIRED>
+	<!ATTLIST svg xml:space CDATA #REQUIRED>
+	<!ATTLIST g transform CDATA #IMPLIED>
+	<!ATTLIST polygon style CDATA #REQUIRED>
+	<!ATTLIST polygon points CDATA #REQUIRED>
+	<!ATTLIST path style CDATA #REQUIRED>
+	<!ATTLIST path d CDATA #REQUIRED>
+]>
+
 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 503.467 503.467" style="enable-background:new 0 0 503.467 503.467;" xml:space="preserve">
